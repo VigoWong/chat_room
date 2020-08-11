@@ -1,0 +1,4 @@
+Log file created at: 2020/08/11 21:34:53
+Running on machine: VigodeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0811 21:34:53.706578 68885952 server.cpp:27] my_room is running!
