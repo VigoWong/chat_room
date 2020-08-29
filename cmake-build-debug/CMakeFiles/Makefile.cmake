@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCXXInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake"
@@ -19,15 +18,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/AppleClang-CXX.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/GNU.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Apple-AppleClang-CXX.cmake"
-  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Apple-Clang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Apple-Clang-CXX.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Apple-Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Darwin-Initialize.cmake"
@@ -35,9 +31,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../src/CMakeLists.txt"
+  "/usr/local/lib/cmake/Catch2/Catch2Config.cmake"
+  "/usr/local/lib/cmake/Catch2/Catch2ConfigVersion.cmake"
+  "/usr/local/lib/cmake/Catch2/Catch2Targets.cmake"
   "/usr/local/lib/cmake/gflags/gflags-config-version.cmake"
   "/usr/local/lib/cmake/gflags/gflags-config.cmake"
   "/usr/local/lib/cmake/gflags/gflags-nonamespace-targets-release.cmake"
@@ -46,6 +45,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/glog/glog-config.cmake"
   "/usr/local/lib/cmake/glog/glog-targets-release.cmake"
   "/usr/local/lib/cmake/glog/glog-targets.cmake"
+  "/usr/local/lib/cmake/range-v3/range-v3-config-version.cmake"
+  "/usr/local/lib/cmake/range-v3/range-v3-config.cmake"
+  "/usr/local/lib/cmake/range-v3/range-v3-targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -57,9 +59,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/wechat_room.dir/DependInfo.cmake"
+  "src/CMakeFiles/server.dir/DependInfo.cmake"
+  "src/CMakeFiles/client.dir/DependInfo.cmake"
   )

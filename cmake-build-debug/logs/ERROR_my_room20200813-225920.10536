@@ -1,0 +1,10 @@
+Log file created at: 2020/08/13 22:59:20
+Running on machine: VigodeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0813 22:59:20.321812 391810496 server.cpp:118] Server: my_room is initializing.
+E0813 22:59:20.323490 391810496 server.cpp:103] Server: Bind success.
+E0813 22:59:20.323545 391810496 server.cpp:113] Server: Ready to listen.
+E0813 22:59:20.323616 391810496 server.cpp:143] Server: Listening to request.
+E0813 22:59:20.323665 391810496 server.cpp:148] Server: Initialization done. 
+E0813 22:59:20.323702 391810496 server.cpp:160] Server: Chatroom server is active.
+E0813 22:59:20.323701 82288640 server.cpp:45] Server: Processing request.

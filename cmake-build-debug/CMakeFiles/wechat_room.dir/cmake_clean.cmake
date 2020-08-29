@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/wechat_room.dir/src/server.cpp.o"
+  "../built/wechat_room"
+  "../built/wechat_room.pdb"
+  "CMakeFiles/wechat_room.dir/src/client.cpp.o"
+  "CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o"
+  "CMakeFiles/wechat_room.dir/src/usr/user.cpp.o"
   "CMakeFiles/wechat_room.dir/util/util.cpp.o"
-  "wechat_room"
-  "wechat_room.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

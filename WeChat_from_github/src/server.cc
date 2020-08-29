@@ -82,7 +82,6 @@ void RecvData(std::list<int>& socket_list, std::string& data) {
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     }
 }
-
 // send 向所有的用户都发送数据
 void SendData(std::list<int>& socket_list, std::string& data) {
     while(true) {
@@ -190,7 +189,7 @@ void Server(std::list<int>& socket_list) {
                 }
             }
         }
-        // std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     }
 }
 

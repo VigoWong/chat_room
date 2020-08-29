@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/clie.dir/src/usr/admin.cpp.o CMakeFiles/clie.dir/src/usr/user.cpp.o CMakeFiles/clie.dir/src/server.cpp.o CMakeFiles/clie.dir/util/util.cpp.o  -o ../built/clie 

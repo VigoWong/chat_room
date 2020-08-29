@@ -15,9 +15,9 @@ namespace chatroom {
     class User {
         using id_type = int;
     public:
-        // constructor
-        explicit User(std::string &name, id_type id, std::string &password) : name_(name), id_(id),
-                                                                              password_(password) {}
+//        // constructor
+//        explicit User(std::string &name, id_type id, std::string &password) : name_(name), id_(id),
+//                                                                              password_(password) {}
 
 
     private:

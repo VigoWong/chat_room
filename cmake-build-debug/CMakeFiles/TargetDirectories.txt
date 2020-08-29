@@ -1,3 +1,6 @@
 /Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/wechat_room.dir
+/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/CMakeFiles/server.dir
+/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/CMakeFiles/client.dir

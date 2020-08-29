@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/huhawel/Documents/todo_list/wechat_room/src/server.cpp" "/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/wechat_room.dir/src/server.cpp.o"
+  "/Users/huhawel/Documents/todo_list/wechat_room/src/client.cpp" "/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/wechat_room.dir/src/client.cpp.o"
+  "/Users/huhawel/Documents/todo_list/wechat_room/src/usr/admin.cpp" "/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o"
+  "/Users/huhawel/Documents/todo_list/wechat_room/src/usr/user.cpp" "/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/wechat_room.dir/src/usr/user.cpp.o"
   "/Users/huhawel/Documents/todo_list/wechat_room/util/util.cpp" "/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles/wechat_room.dir/util/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

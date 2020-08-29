@@ -1,6 +1,0 @@
-Log file created at: 2020/08/11 21:34:32
-Running on machine: VigodeMacBook-Pro.local
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-E0811 21:34:32.488000 97516992 server.cpp:27] my_room is running!
-E0811 21:34:32.496085 97516992 server.cpp:47] bind success.
-E0811 21:34:32.496263 97516992 server.cpp:55] listen success.

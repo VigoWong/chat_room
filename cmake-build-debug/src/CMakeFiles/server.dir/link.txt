@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/server.dir/util.cpp.o CMakeFiles/server.dir/server.cpp.o  -o ../../built/server -Wl,-rpath,/usr/local/lib /usr/local/lib/libglog.0.4.0.dylib /usr/local/lib/libgflags.2.2.2.dylib 

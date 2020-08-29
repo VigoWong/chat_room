@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libusr.a  CMakeFiles/usr.dir/src/usr/user.cpp.o CMakeFiles/usr.dir/util/util.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libusr.a

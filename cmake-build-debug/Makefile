@@ -111,71 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named wechat_room
+# Target rules for targets named server
 
 # Build rule for target.
-wechat_room: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wechat_room
-.PHONY : wechat_room
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
 
 # fast build rule for target.
-wechat_room/fast:
-	$(MAKE) -f CMakeFiles/wechat_room.dir/build.make CMakeFiles/wechat_room.dir/build
-.PHONY : wechat_room/fast
+server/fast:
+	$(MAKE) -f src/CMakeFiles/server.dir/build.make src/CMakeFiles/server.dir/build
+.PHONY : server/fast
 
-src/server.o: src/server.cpp.o
+#=============================================================================
+# Target rules for targets named client
 
-.PHONY : src/server.o
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client
+.PHONY : client
 
-# target to build an object file
-src/server.cpp.o:
-	$(MAKE) -f CMakeFiles/wechat_room.dir/build.make CMakeFiles/wechat_room.dir/src/server.cpp.o
-.PHONY : src/server.cpp.o
-
-src/server.i: src/server.cpp.i
-
-.PHONY : src/server.i
-
-# target to preprocess a source file
-src/server.cpp.i:
-	$(MAKE) -f CMakeFiles/wechat_room.dir/build.make CMakeFiles/wechat_room.dir/src/server.cpp.i
-.PHONY : src/server.cpp.i
-
-src/server.s: src/server.cpp.s
-
-.PHONY : src/server.s
-
-# target to generate assembly for a file
-src/server.cpp.s:
-	$(MAKE) -f CMakeFiles/wechat_room.dir/build.make CMakeFiles/wechat_room.dir/src/server.cpp.s
-.PHONY : src/server.cpp.s
-
-util/util.o: util/util.cpp.o
-
-.PHONY : util/util.o
-
-# target to build an object file
-util/util.cpp.o:
-	$(MAKE) -f CMakeFiles/wechat_room.dir/build.make CMakeFiles/wechat_room.dir/util/util.cpp.o
-.PHONY : util/util.cpp.o
-
-util/util.i: util/util.cpp.i
-
-.PHONY : util/util.i
-
-# target to preprocess a source file
-util/util.cpp.i:
-	$(MAKE) -f CMakeFiles/wechat_room.dir/build.make CMakeFiles/wechat_room.dir/util/util.cpp.i
-.PHONY : util/util.cpp.i
-
-util/util.s: util/util.cpp.s
-
-.PHONY : util/util.s
-
-# target to generate assembly for a file
-util/util.cpp.s:
-	$(MAKE) -f CMakeFiles/wechat_room.dir/build.make CMakeFiles/wechat_room.dir/util/util.cpp.s
-.PHONY : util/util.cpp.s
+# fast build rule for target.
+client/fast:
+	$(MAKE) -f src/CMakeFiles/client.dir/build.make src/CMakeFiles/client.dir/build
+.PHONY : client/fast
 
 # Help Target
 help:
@@ -185,13 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... wechat_room"
-	@echo "... src/server.o"
-	@echo "... src/server.i"
-	@echo "... src/server.s"
-	@echo "... util/util.o"
-	@echo "... util/util.i"
-	@echo "... util/util.s"
+	@echo "... server"
+	@echo "... client"
 .PHONY : help
 
 

@@ -5,7 +5,7 @@
 		<Option title="wechat_room"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\range-v3\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Catch2\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug"/>
@@ -37,9 +37,9 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="wechat_room">
-				<Option output="/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/wechat_room" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug"/>
+			<Target title="server">
+				<Option output="/Users/huhawel/Documents/todo_list/wechat_room/built/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huhawel/Documents/todo_list/wechat_room/built"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -48,12 +48,7 @@
 					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
 					<Add option="-DGFLAGS_IS_A_DLL=0"/>
 					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/include"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/include/usr"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/src"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/logs"/>
 					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/src/usr"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/util"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/config"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -62,15 +57,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 wechat_room"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="wechat_room/fast">
-				<Option output="/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/wechat_room" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug"/>
+			<Target title="server/fast">
+				<Option output="/Users/huhawel/Documents/todo_list/wechat_room/built/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huhawel/Documents/todo_list/wechat_room/built"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -79,12 +74,7 @@
 					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
 					<Add option="-DGFLAGS_IS_A_DLL=0"/>
 					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/include"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/include/usr"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/src"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/logs"/>
 					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/src/usr"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/util"/>
-					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/config"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -93,27 +83,98 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 wechat_room/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/Users/huhawel/Documents/todo_list/wechat_room/built/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huhawel/Documents/todo_list/wechat_room/built"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/include"/>
+					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/src/usr"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/Users/huhawel/Documents/todo_list/wechat_room/built/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/huhawel/Documents/todo_list/wechat_room/built"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL="/>
+					<Add option="-DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS="/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/include"/>
+					<Add directory="/Users/huhawel/Documents/todo_list/wechat_room/src/usr"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/config/config.hpp">
-			<Option target="wechat_room"/>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/src/client.cpp">
+			<Option target="client"/>
 		</Unit>
 		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/src/server.cpp">
-			<Option target="wechat_room"/>
+			<Option target="server"/>
 		</Unit>
-		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/util/util.cpp">
-			<Option target="wechat_room"/>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/src/usr/user.cpp">
+			<Option target="client"/>
 		</Unit>
-		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/util/util.hpp">
-			<Option target="wechat_room"/>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/src/util.cpp">
+			<Option target="server"/>
+			<Option target="client"/>
 		</Unit>
 		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/range-v3/range-v3-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/range-v3/range-v3-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/range-v3/range-v3-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/Catch2/Catch2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/Catch2/Catch2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
+		</Unit>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/Catch2/Catch2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Catch2\"/>
 		</Unit>
 		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/glog/glog-config-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\"/>
@@ -138,6 +199,9 @@
 		</Unit>
 		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/../../../../../usr/local/lib/cmake/gflags/gflags-nonamespace-targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/huhawel/Documents/todo_list/wechat_room/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

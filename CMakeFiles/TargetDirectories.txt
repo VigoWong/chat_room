@@ -1,0 +1,6 @@
+/Users/huhawel/Documents/todo_list/wechat_room/CMakeFiles/rebuild_cache.dir
+/Users/huhawel/Documents/todo_list/wechat_room/CMakeFiles/edit_cache.dir
+/Users/huhawel/Documents/todo_list/wechat_room/src/CMakeFiles/rebuild_cache.dir
+/Users/huhawel/Documents/todo_list/wechat_room/src/CMakeFiles/edit_cache.dir
+/Users/huhawel/Documents/todo_list/wechat_room/src/CMakeFiles/server.dir
+/Users/huhawel/Documents/todo_list/wechat_room/src/CMakeFiles/client.dir

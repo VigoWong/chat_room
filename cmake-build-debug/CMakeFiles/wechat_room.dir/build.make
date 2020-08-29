@@ -57,22 +57,48 @@ include CMakeFiles/wechat_room.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/wechat_room.dir/flags.make
 
-CMakeFiles/wechat_room.dir/src/server.cpp.o: CMakeFiles/wechat_room.dir/flags.make
-CMakeFiles/wechat_room.dir/src/server.cpp.o: ../src/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wechat_room.dir/src/server.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wechat_room.dir/src/server.cpp.o -c /Users/huhawel/Documents/todo_list/wechat_room/src/server.cpp
+CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o: CMakeFiles/wechat_room.dir/flags.make
+CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o: ../src/usr/admin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o -c /Users/huhawel/Documents/todo_list/wechat_room/src/usr/admin.cpp
 
-CMakeFiles/wechat_room.dir/src/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wechat_room.dir/src/server.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huhawel/Documents/todo_list/wechat_room/src/server.cpp > CMakeFiles/wechat_room.dir/src/server.cpp.i
+CMakeFiles/wechat_room.dir/src/usr/admin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wechat_room.dir/src/usr/admin.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huhawel/Documents/todo_list/wechat_room/src/usr/admin.cpp > CMakeFiles/wechat_room.dir/src/usr/admin.cpp.i
 
-CMakeFiles/wechat_room.dir/src/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wechat_room.dir/src/server.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huhawel/Documents/todo_list/wechat_room/src/server.cpp -o CMakeFiles/wechat_room.dir/src/server.cpp.s
+CMakeFiles/wechat_room.dir/src/usr/admin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wechat_room.dir/src/usr/admin.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huhawel/Documents/todo_list/wechat_room/src/usr/admin.cpp -o CMakeFiles/wechat_room.dir/src/usr/admin.cpp.s
+
+CMakeFiles/wechat_room.dir/src/usr/user.cpp.o: CMakeFiles/wechat_room.dir/flags.make
+CMakeFiles/wechat_room.dir/src/usr/user.cpp.o: ../src/usr/user.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wechat_room.dir/src/usr/user.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wechat_room.dir/src/usr/user.cpp.o -c /Users/huhawel/Documents/todo_list/wechat_room/src/usr/user.cpp
+
+CMakeFiles/wechat_room.dir/src/usr/user.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wechat_room.dir/src/usr/user.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huhawel/Documents/todo_list/wechat_room/src/usr/user.cpp > CMakeFiles/wechat_room.dir/src/usr/user.cpp.i
+
+CMakeFiles/wechat_room.dir/src/usr/user.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wechat_room.dir/src/usr/user.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huhawel/Documents/todo_list/wechat_room/src/usr/user.cpp -o CMakeFiles/wechat_room.dir/src/usr/user.cpp.s
+
+CMakeFiles/wechat_room.dir/src/client.cpp.o: CMakeFiles/wechat_room.dir/flags.make
+CMakeFiles/wechat_room.dir/src/client.cpp.o: ../src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wechat_room.dir/src/client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wechat_room.dir/src/client.cpp.o -c /Users/huhawel/Documents/todo_list/wechat_room/src/client.cpp
+
+CMakeFiles/wechat_room.dir/src/client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wechat_room.dir/src/client.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huhawel/Documents/todo_list/wechat_room/src/client.cpp > CMakeFiles/wechat_room.dir/src/client.cpp.i
+
+CMakeFiles/wechat_room.dir/src/client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wechat_room.dir/src/client.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huhawel/Documents/todo_list/wechat_room/src/client.cpp -o CMakeFiles/wechat_room.dir/src/client.cpp.s
 
 CMakeFiles/wechat_room.dir/util/util.cpp.o: CMakeFiles/wechat_room.dir/flags.make
 CMakeFiles/wechat_room.dir/util/util.cpp.o: ../util/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wechat_room.dir/util/util.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wechat_room.dir/util/util.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wechat_room.dir/util/util.cpp.o -c /Users/huhawel/Documents/todo_list/wechat_room/util/util.cpp
 
 CMakeFiles/wechat_room.dir/util/util.cpp.i: cmake_force
@@ -85,23 +111,27 @@ CMakeFiles/wechat_room.dir/util/util.cpp.s: cmake_force
 
 # Object files for target wechat_room
 wechat_room_OBJECTS = \
-"CMakeFiles/wechat_room.dir/src/server.cpp.o" \
+"CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o" \
+"CMakeFiles/wechat_room.dir/src/usr/user.cpp.o" \
+"CMakeFiles/wechat_room.dir/src/client.cpp.o" \
 "CMakeFiles/wechat_room.dir/util/util.cpp.o"
 
 # External object files for target wechat_room
 wechat_room_EXTERNAL_OBJECTS =
 
-wechat_room: CMakeFiles/wechat_room.dir/src/server.cpp.o
-wechat_room: CMakeFiles/wechat_room.dir/util/util.cpp.o
-wechat_room: CMakeFiles/wechat_room.dir/build.make
-wechat_room: /usr/local/lib/libglog.0.4.0.dylib
-wechat_room: /usr/local/lib/libgflags.2.2.2.dylib
-wechat_room: CMakeFiles/wechat_room.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable wechat_room"
+../built/wechat_room: CMakeFiles/wechat_room.dir/src/usr/admin.cpp.o
+../built/wechat_room: CMakeFiles/wechat_room.dir/src/usr/user.cpp.o
+../built/wechat_room: CMakeFiles/wechat_room.dir/src/client.cpp.o
+../built/wechat_room: CMakeFiles/wechat_room.dir/util/util.cpp.o
+../built/wechat_room: CMakeFiles/wechat_room.dir/build.make
+../built/wechat_room: /usr/local/lib/libglog.0.4.0.dylib
+../built/wechat_room: /usr/local/lib/libgflags.2.2.2.dylib
+../built/wechat_room: CMakeFiles/wechat_room.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/huhawel/Documents/todo_list/wechat_room/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../built/wechat_room"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wechat_room.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/wechat_room.dir/build: wechat_room
+CMakeFiles/wechat_room.dir/build: ../built/wechat_room
 
 .PHONY : CMakeFiles/wechat_room.dir/build
 
